@@ -1,0 +1,37 @@
+.datepicker + .ui-datepicker-trigger { cursor: pointer; margin-bottom: -5px; }
+/* css for timepicker */
+.ui-timepicker-div .ui-widget-header { margin-bottom: 8px; }
+.ui-timepicker-div dl { text-align: left; }
+.ui-timepicker-div dl dt { float: left; clear:left; padding: 0 0 0 5px; }
+.ui-timepicker-div dl dd { margin: 0 10px 10px 45%; }
+.ui-timepicker-div td { font-size: 90%; }
+.ui-tpicker-grid-label { background: none; border: none; margin: 0; padding: 0; }
+
+.ui-timepicker-rtl{ direction: rtl; }
+.ui-timepicker-rtl dl { text-align: right; padding: 0 5px 0 0; }
+.ui-timepicker-rtl dl dt{ float: right; clear: right; }
+.ui-timepicker-rtl dl dd { margin: 0 45% 10px 10px; }
+
+#wpclndr-add-meta-box-create-event span,
+#wpclndr-add-meta-box-create-event label{
+    display: inline-block;
+    width: 90px;
+}
+#wpclndr-add-meta-box-create-event h3.hndle span{ width: 150px; }
+#wpclndr-add-meta-box-create-event input[type="text"]{
+    margin-right: 7px;
+    width: 130px;
+}
+#wpclndr-add-meta-box-create-event input[type="checkbox"]{ margin: 12px 0 10px; }
+#wpadminbar{ box-shadow: 0 3px 4px 0 rgba(50, 50, 50, 0.6); }
+#wpclndr-add-meta-box-create-event .hidden{ display: none; }
+#wpclndr_recurring_days_container{
+				height: 0;
+				overflow: hidden;
+}
+#wpclndr_recurring_days_container label{
+				display: block;
+				margin: 10px 0 5px;
+				width: 200px;
+}
+#wpclndr_recurring_days_container input{ width: 200px !important; }

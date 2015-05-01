@@ -1,0 +1,38 @@
+/**********************************************************************
+ * Smartphone specific styles
+ *********************************************************************/
+@media only screen /* General Smartphones */
+and (min-device-width : 320px)
+and (max-device-width : 480px),
+@media /* iPhone 4 */
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5){
+				#wpclndr-header label,
+				#wpclndr-header select,
+				#wpclndr-header input[type="text"]{
+								display: block;
+								float: none;
+								width: 100%;
+				}
+				#wpclndr-header label{ margin: 5px 0; }
+				#wpclndr-header input[type="text"]{ width: 98%; }
+				#wpclndr-header button{
+								margin: 5px 0;
+								width: 100%;
+				}
+				#wpclndr-events-container table tr td span h2{
+								font-size: 17px;
+								padding: 4px 4px 0;
+				}
+				.fc-view-month{ height: 275px; }
+				.wpclndr-events-view-list .wpclndr-events-listing h3.wpclndr-events-listing-header{ text-align: center; }
+				.wpclndr-events-view-list .wpclndr-events-listing .wpclndr-events-listing-header span{
+								clear: left;
+								float: none;
+								position: static;
+								text-align: center;
+								top: 0;
+								width: auto;
+				}
+    .fc-agenda .fc-agenda-allday{ display: none; }
+}
